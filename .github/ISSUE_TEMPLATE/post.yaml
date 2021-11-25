@@ -1,0 +1,31 @@
+name: Social Media Post
+description: This is a Github Issue which proposes a social media post to be shared on the SR social media accounts.
+title: "[POST]: SR20XX"
+labels: ["post"]
+body:
+  - type: textarea
+    id: body
+    attributes:
+      label: Body
+      description: The content of the post
+      placeholder: e.g Kickstart was asweome!
+    validations:
+      required: true
+  - type: input
+    id: media
+    attributes:
+      label: Media
+      description: Media to be posted alongside the body. (Either a description of the media or a link to the media)
+      placeholder: e.g Smiling competitors
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Volunteer Recruitment
+        - Sponsor Recrutiment
+        - Team Recruitment
+        - Current Comp Cycle News
+        - Filler
