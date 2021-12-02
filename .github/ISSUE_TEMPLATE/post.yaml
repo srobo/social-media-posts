@@ -1,6 +1,6 @@
 name: Social Media Post
 description: This is a Github Issue which proposes a social media post to be shared on the SR social media accounts.
-title: "[POST]: SR20XX"
+title: "[SR20XX]: YYYY-MM-DD <Subject>"
 labels: ["post"]
 body:
   - type: textarea
@@ -8,7 +8,7 @@ body:
     attributes:
       label: Body
       description: The content of the post
-      placeholder: e.g Kickstart was asweome!
+      placeholder: e.g Kickstart was awesome!
     validations:
       required: true
   - type: input
