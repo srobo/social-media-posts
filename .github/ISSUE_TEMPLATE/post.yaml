@@ -25,7 +25,8 @@ body:
       label: Category
       options:
         - Volunteer Recruitment
-        - Sponsor Recrutiment
+        - Sponsor Recruitment
         - Team Recruitment
         - Current Comp Cycle News
         - Filler
+        - Sponsor Perk
